@@ -3,7 +3,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-var config = require('../config');
+var config = require('./config');
 
 var app = express();
 
@@ -41,7 +41,7 @@ if (require.main === module) {
 exports.app = app;
 exports.runServer = runServer;
 
-var Item = require('../models/item');
+var Item = require('./models/item');
 
     //GET
     //this endpoint fetches a list of all items from the database using 'Item.find'
