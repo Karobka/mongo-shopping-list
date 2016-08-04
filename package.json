@@ -4,7 +4,7 @@
   "description": "A shopping list using mongo",
   "main": "server.js",
   "scripts": {
-    "test": mocha
+    "test": "mocha"
   },
   "author": "Tim Wright",
   "license": "ISC",
